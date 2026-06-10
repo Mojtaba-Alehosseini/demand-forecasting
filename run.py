@@ -6,7 +6,7 @@ import pandas as pd
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-import forecast as F
+import src.forecast as F
 
 HORIZON = 90
 os.makedirs("reports", exist_ok=True)
